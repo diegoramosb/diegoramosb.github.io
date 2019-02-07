@@ -9,19 +9,17 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans|Spectral|Major+Mono+Display|Cormorant+SC|Megrim|Carrois+Gothic+SC"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Major+Mono+Display|Quattrocento+Sans" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-default fixed-top navbar-expand-lg bg-light">
+    <nav class="navbar navbar-default fixed-top navbar-expand-lg">
         <div class="container">
-            <h2 class="navbar-brand">Menu</h2>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="d-block d-md-none navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
             </button>
-            <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
+            <div class="navbar-collapse collapse" id="navbar">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="#">Home</a>
                     <a class="nav-item nav-link" href="#info">Personal info</a>
@@ -34,11 +32,15 @@
         </div>
     </nav>
     <h1 class="text-center">Welcome to diego ramos' website</h1>
+    <img src="resources/villa_de_leyva.JPG" id="banner">
     <!-- <h1 id="home">WELCOME TO DIEGO RAMOS' WEBSITE</h1> -->
     <div class="container" id="content">
+        <h2 id="info">Personal information</h2>
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <h2 id="info">Personal information</h2>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <img src="resources/diego.jpg" id="profile-picture">
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-9">
                 <p>
                     My name is Diego Ramos, I'm a 20 years old Systems and Computing Engineering student at Universidad
                     de Los
@@ -46,6 +48,7 @@
                 </p>
             </div>
         </div>
+        <hr>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <h2 id="projects">Projects</h2>
@@ -67,6 +70,7 @@
                 </ul>
             </div>
         </div>
+        <hr>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <h2 id="interests">Interests</h2>
@@ -82,6 +86,7 @@
                     read.</p>
             </div>
         </div>
+        <hr>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <h2 id="academic">Academic formation and experience</h2>
@@ -97,6 +102,7 @@
                     next year with the objective of gaining experience in a working environment.</p>
             </div>
         </div>
+        <hr>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <h2 id="skills">Skills</h2>
@@ -108,7 +114,6 @@
                 </p>
             </div>
         </div>
-
     </div>
     <div id="footer">
         <p>Contact: da.ramos@uniandes.edu.co</p>
