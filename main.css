@@ -3,10 +3,7 @@ a:hover {
 }
 
 #content {
-    /* position: absolute; */
     margin: 0 auto;
-    /* max-width: 640px; */
-    /* width: 95%; */
 }
 
 body #footer {
@@ -73,6 +70,11 @@ body h1 {
 
 body h2 {
     font-family: 'Carrois Gothic SC', sans-serif;
+    margin-top: 5px;
+}
+
+body h4 {
+    font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 p {
@@ -91,7 +93,7 @@ body {
     position: relative;
     margin: 0;
     padding-bottom: 6rem;
-    padding-top: 60px;
+    padding-top: 40px;
     min-height: 100%;
 }
 
