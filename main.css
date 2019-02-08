@@ -9,7 +9,7 @@ a:hover {
     /* width: 95%; */
 }
 
-#footer {
+body #footer {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -17,6 +17,14 @@ a:hover {
     padding: 1rem;
     text-align: center;
     background-color: rgb(42, 104, 161);
+}
+
+#contact {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    text-align: center;
+    color: white;
 }
 
 .navbar {
@@ -50,12 +58,12 @@ a:hover {
 }
 
 #profile-picture {
-    max-width: 100%;
+    max-width: 90%;
 }
 
 body h1 {
     font-family: 'Major Mono Display', monospace;
-    font-size: 50px;
+    font-size: 5vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -70,11 +78,13 @@ body h2 {
 p {
     font-family: 'Quattrocento Sans', sans-serif;
     text-align: justify;
+    font-size: 18px;
 }
 
 li {
     font-family: 'Quattrocento Sans', sans-serif;
     text-align: justify;
+    font-size: 18px;
 }
 
 body {
@@ -83,4 +93,12 @@ body {
     padding-bottom: 6rem;
     padding-top: 60px;
     min-height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+span {
+    margin-bottom: 50px;
 }
