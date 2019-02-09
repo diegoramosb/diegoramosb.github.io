@@ -27,7 +27,6 @@
 
 .navbar a {
     font-family: 'Carrois Gothic SC', sans-serif;
-    /* color: #edf5e1; */
     color: #05386b;
 }
 
@@ -41,9 +40,9 @@
 
 .navbar button {
     font-family: 'Carrois Gothic SC', sans-serif;
-    color: #edf5e1;
+    color: #05386b;
     border-style: solid;
-    border-color: #edf5e1;
+    border-color: #05386b;
 }
 
 #banner-img {
@@ -115,7 +114,6 @@ html body {
     padding-bottom: 6rem;
     padding-top: 40px;
     min-height: 100%;
-    /* background-color: #fef9c7; */
     background-color: #edf5e1;
 }
 
