@@ -6,23 +6,25 @@ a:hover {
     margin: 0 auto;
 }
 
-body #footer {
+#footer {
     position: absolute;
     left: 0;
     bottom: 0;
     right: 0;
-    padding: 1rem;
+    margin: 10px;
+    padding: 5px;   
     text-align: center;
     background-color: rgb(42, 104, 161);
 }
 
-#contact {
+#footer p {
     font-family: 'Quattrocento Sans', sans-serif;
     text-align: justify;
     font-size: 18px;
     text-align: center;
     color: white;
 }
+
 
 .navbar {
     background-color: rgb(42, 104, 161);
@@ -34,6 +36,7 @@ body #footer {
 
 .navbar a {
     font-family: 'Carrois Gothic SC', sans-serif;
+    
     color: white;
 }
 
@@ -56,6 +59,10 @@ body #footer {
 
 #profile-picture {
     max-width: 90%;
+}
+
+#github {
+    width: 50px;
 }
 
 body h1 {
