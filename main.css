@@ -7,10 +7,9 @@
     left: 0;
     bottom: 0;
     right: 0;
-    margin: 10px;
-    padding: 5px;   
+    padding: 5px;
     text-align: center;
-    background-color: #8ee4af;
+    background-color: #053f5e;
 }
 
 #footer p {
@@ -18,49 +17,47 @@
     text-align: justify;
     font-size: 18px;
     text-align: center;
-    color: #05386b;
+    color: #f5d000;
 }
 
 .navbar {
-    background-color: #8ee4af;
+    background-color: #053f5e;
 }
 
 .navbar a {
     font-family: 'Carrois Gothic SC', sans-serif;
-    color: #05386b;
-}
-
-.navbar a:hover {
-    color: #edf5e1;
+    color: #f5d000;
 }
 
 .navbar a:visited {
-    color: #edf5e1;
+    color: #f5d000;
+}
+
+.navbar a:hover {
+    color: #f7f5f3;
 }
 
 .navbar button {
     font-family: 'Carrois Gothic SC', sans-serif;
-    color: #05386b;
+    color: #f5d000;
     border-style: solid;
-    border-color: #05386b;
+    border-color: #f5d000;
 }
 
 #banner-img {
     max-width: 100%;
+    height: 92vh;
+    
 }
 
 #banner {
     position: relative;
     text-align: center;
-    color: #edf5e1;
+    color: #f7f5f3;
 }
 
 #profile-picture {
     max-width: 90%;
-}
-
-#github {
-    width: 50px;
 }
 
 body h1 {
@@ -76,24 +73,20 @@ body h1 {
 body h2 {
     font-family: 'Carrois Gothic SC', sans-serif;
     margin-top: 5px;
-    color: #05386b;
-}
-
-body h4 {
-    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #053f5e;
 }
 
 body a {
-    color: #379683;
-}
-
-body a:hover {
-    color: #05386b;
-    text-decoration: none;
+    color: #429AC9;
 }
 
 body a:visited {
-    color: #5cdb95;
+    color: #035aa6;
+}
+
+body a:hover {
+    color: #f5d000;
+    text-decoration: none;
 }
 
 p {
@@ -110,17 +103,16 @@ li {
 
 html body {
     position: relative;
-    margin: 0;
     padding-bottom: 6rem;
-    padding-top: 40px;
+    padding-top: 8vh;
     min-height: 100%;
-    background-color: #edf5e1;
+    background-color: #f7f5f3;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-span {
-    margin-bottom: 50px;
+.separator {
+    height: 10vh;
 }
